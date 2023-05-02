@@ -13,7 +13,11 @@ while (opModeIsActive()) {
   if (color1.red() == 255) {
     //Do Stuff
     }
-  if (color1.blue() == 37) {
+  if (color1.blue() == 255) {
     //Do Stuff
   }
+  if (color1.green() == 255) {
+    //Do Stuff
+  }
+  break;
 }
