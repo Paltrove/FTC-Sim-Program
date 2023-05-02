@@ -1,6 +1,5 @@
 //Allows Robot To Move With Little Code In Main
 public void drive(int powerL,int powerR, int time){
-  motorLeft.setDirection(DcMotor.Direction.FORWARD);
   motorLeft.setPower(powerL);
   motorRight.setPower(powerR);
   sleep(time);
