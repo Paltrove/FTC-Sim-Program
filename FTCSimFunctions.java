@@ -9,15 +9,15 @@ public void drive(int powerL,int powerR, int time){
 }
 
 //Color Detection
-while (opModeIsActive()) {
-  if (color1.red() == 255) {
-    //Do Stuff
-    }
-  if (color1.blue() == 255) {
-    //Do Stuff
-  }
-  if (color1.green() == 255) {
-    //Do Stuff
-  }
-  break;
+if (color1.red() == 255) {
 }
+if (color1.blue() == 255) {
+}
+  
+//Distance Detection
+if (DistanceUnit.CM == 225) {
+}
+
+//Prints To Terminal
+telemetry.addData("Distance", (distance1.getDistance(DistanceUnit.CM)));
+telemetry.update();
