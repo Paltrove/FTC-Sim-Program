@@ -15,7 +15,7 @@ if (color1.blue() == 255) {
 }
   
 //Distance Detection
-if (DistanceUnit.CM == 225) {
+if (distance1.getDistance(DistanceUnit.CM) < 225) {
 }
 
 //Prints To Terminal
